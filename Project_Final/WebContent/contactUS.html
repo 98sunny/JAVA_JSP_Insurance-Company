@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Sending Mail Through JSP</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="style.css">
+    </head>
+
+    <body bgcolor="#ffffcc">
+  <style>
+
+
+.button{background-color: #4CAF50;} /* Green */
+  form {
+    max-width: 64em;
+    margin: auto;
+    text-align: center;
+ }
+ h1,h2,h3{
+margin: auto;
+text-align:center;
+  width: 50%;
+ padding: 10px;}</style>
+ <h1>ABC Commpany</h1>
+<h2>Customer Service Department</h2>
+<h3>Choose from below</h3>
+ 
+<h3>For business enquiries, email to: sunnys.sir@gmail.com</h3>
+					<h3>For feedback and complaints, email to: complaints@abc.com</h3>
+        <form action="mailmessage.jsp" align="center">
+
+            <table>
+
+                <tr><td><b><font color="red">To:
+
+                    </td>
+                    
+					
+                    <td><b><b><input type="text" name="mail" value="Enter sender mail-id"/><br/>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <b><font color="red">Subject:
+
+                    </td>
+
+                    <td>
+
+                        <input type="text" name="sub" value="Enter Subject Line"><br/>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <b><font color="red">Message Text:
+
+                    </td>
+
+                    <td>
+
+                        <textarea rows="12" cols="80" name="mess"></textarea><br/>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+ <td><button class="button" type="button"><a href="index.jsp">Home</a></button></td>	
+                    <td>
+
+                        <input type="submit" value="Send">
+                        
+                        
+                        <input type="reset" value="Reset">
+
+                    </td>
+                   
+
+                   
+
+                </tr>
+
+            </table>
+
+        </form>
+
+    </body>
+
+</html>

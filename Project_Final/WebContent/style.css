@@ -1,0 +1,99 @@
+#tablestyle {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#tablestyle td, #tablestyle th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#tablestyle tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#tablestyle tr:hover {
+	background-color: #ddd;
+}
+
+#tablestyle th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+}
+
+
+h1,h2,h3{
+margin: auto;
+text-align:center;
+  width: 50%;
+ padding: 10px;}
+ 
+ * {
+  box-sizing: border-box;
+}
+
+input[type=text],input[type=number],input[type=password], select, textarea,input[type=date] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit],input[type=reset] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover,input[type=reset]:hover {
+  background-color: #45a049;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+#logoutButton{
+	float: right;
+	padding: 8px 25px;
+	font-size: 13px;
+}
+#tableButton{
+	background-color: teal;
+	padding: 8px 25px;
+	font-size: 13px;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
